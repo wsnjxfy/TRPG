@@ -1,0 +1,22 @@
+# 1. 让Git自动检测文本文件（最重要的一行！）
+* text=auto
+
+# 2. 明确告诉Git这些是文本文件（你的TRPG项目需要的）
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.html text
+*.css text
+*.md text
+
+# 3. 明确告诉Git这些是二进制文件（不要当做文本处理）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# 4. 锁定文件保持原样（非常重要！）
+package-lock.json binary

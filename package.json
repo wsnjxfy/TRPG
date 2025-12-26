@@ -19,14 +19,26 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "keywords": ["trpg", "coc", "dnd", "chat", "multiplayer"],
+  "keywords": [
+    "trpg",
+    "coc",
+    "dnd",
+    "chat",
+    "multiplayer"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
     "concurrently": "^8.2.0",
-    "eslint": "^8.45.0",
-    "husky": "^8.0.3",
-    "prettier": "^3.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "husky": "^8.0.0",
+    "prettier": "^3.7.4",
     "typescript": "^5.1.6"
   },
   "engines": {
