@@ -19,11 +19,17 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "keywords": ["trpg", "coc", "dnd", "chat", "multiplayer"],
+  "keywords": [
+    "trpg",
+    "coc",
+    "dnd",
+    "chat",
+    "multiplayer"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.0",
+    "concurrently": "^8.2.2",
     "eslint": "^8.45.0",
     "husky": "^8.0.3",
     "prettier": "^3.0.0",

@@ -64,3 +64,8 @@ export interface SceneTrigger {
   condition: string;
   action: string;
 }
+
+export type ChatMessage = {
+  userId: string;
+  message: string;
+};
